@@ -1,22 +1,22 @@
 public class Primes {
-    public static void main(String[] args) {
-        System.out.println("Prime numbers in [1; 100]:");
-        int i = 2;
-        while (i<=100){
-            if (isPrime(i)){
-                System.out.print(i + " ");}
-            i = i + 1;
+    public static void main(String[] args) {                //код программы вывода всех простых чисел от 1 до 100
+        System.out.println("Prime numbers in [1; 100]:");   //вывод с текстом
+        int i = 2;                                          //ввод переменной
+        while (i<=100){                                     //пока меньше или ровно 100
+            if (isPrime(i)){                                //использование подпрограммы
+                System.out.print(i + " ");}                 //вывод простого
+            i = i + 1;                                      //переход к следующему
     }
     }
 
-    public static boolean isPrime(int n) {
-        int m = n;
-        while (m > 2){
-            if (n%(m-1)==0)
-                return false;
+    public static boolean isPrime(int n) {                  //подпрограмма определения простого числа
+        int m = n;                                          //ввод новой переменной равной проверяемому числу
+        while (m > 2){                                      //проверяем только делится ли на числа больше 1
+            if (n%(m-1)==0)                                 //делим на предшествующее число
+                return false;                               //если делится то составное
             else
-                m = m - 1;
+                m = m - 1;                                  //переходим к делителю на 1 меньше
         }
-        return true;
+        return true;                                        //если не делится ни на какие числа больше 1 то простое
     }
 }
