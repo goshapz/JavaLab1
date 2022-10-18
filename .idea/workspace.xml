@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3756d7ca-4f84-409b-b433-511fe78d3eac" name="Changes" comment="changes 15/10">
+    <list default="true" id="3756d7ca-4f84-409b-b433-511fe78d3eac" name="Changes" comment="коментарии от 18.10 (финальная версия)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665859519274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="коментарии от 18.10 (финальная версия)">
+      <created>1666109653318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666109653318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes 15/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 15/10" />
+    <MESSAGE value="коментарии от 18.10 (финальная версия)" />
+    <option name="LAST_COMMIT_MESSAGE" value="коментарии от 18.10 (финальная версия)" />
   </component>
 </project>
