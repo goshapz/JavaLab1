@@ -13,9 +13,9 @@ public class Palindrome {
     }
     public static String reverseString(String s){       //функция преобразования слова в обратное
         int length = s.length();                        //помещаем в переменную значение длинны слова
-        String r = "";                                  //пустое слово для конкантинации
+        String r = "";                                  //пустое слово для конкатенации
         while(length > 0){
-            r = r + s.charAt(length - 1);               //конкантинация
+            r = r + s.charAt(length - 1);               //конкатенация
             length--;                                   //переход к следующему символу с конца
         }
         return r;
